@@ -8263,6 +8263,28 @@
       }
     },
     {
+      "templateId": "BADGE_APAC_PARTNER_JULY_2018_6",
+      "badgeSettings": {
+        "badgeType": "BADGE_APAC_PARTNER_JULY_2018_6",
+        "badgeRank": 2,
+        "targets": [
+          100
+        ],
+        "eventBadge": true
+      }
+    },
+    {
+      "templateId": "BADGE_APAC_PARTNER_JULY_2018_7",
+      "badgeSettings": {
+        "badgeType": "BADGE_APAC_PARTNER_JULY_2018_7",
+        "badgeRank": 2,
+        "targets": [
+          100
+        ],
+        "eventBadge": true
+      }
+    },
+    {
       "templateId": "BADGE_BATTLE_ATTACK_WON",
       "badgeSettings": {
         "badgeType": "BADGE_BATTLE_ATTACK_WON",
@@ -8471,6 +8493,28 @@
           2,
           3
         ]
+      }
+    },
+    {
+      "templateId": "BADGE_PARTNER_EVENT_2019_0",
+      "badgeSettings": {
+        "badgeType": "BADGE_PARTNER_EVENT_2019_0",
+        "badgeRank": 2,
+        "targets": [
+          100
+        ],
+        "eventBadge": true
+      }
+    },
+    {
+      "templateId": "BADGE_PARTNER_EVENT_2019_1",
+      "badgeSettings": {
+        "badgeType": "BADGE_PARTNER_EVENT_2019_1",
+        "badgeRank": 2,
+        "targets": [
+          100
+        ],
+        "eventBadge": true
       }
     },
     {
@@ -11163,7 +11207,7 @@
       "templateId": "COMBAT_V0294_MOVE_WEATHER_BALL_ROCK",
       "combatMove": {
         "uniqueId": "WEATHER_BALL_ROCK",
-        "type": "POKEMON_TYPE_ROCK",
+        "type": "POKEMON_TYPE_NORMAL",
         "power": 60.0,
         "vfxName": "weather_ball_rock",
         "energyDelta": -35
@@ -56009,7 +56053,7 @@
       "moveSettings": {
         "movementId": "WEATHER_BALL_ROCK",
         "animationId": 5,
-        "pokemonType": "POKEMON_TYPE_ROCK",
+        "pokemonType": "POKEMON_TYPE_NORMAL",
         "power": 60.0,
         "accuracyChance": 1.0,
         "staminaLossScalar": 0.009999999776482582,
@@ -61416,7 +61460,8 @@
         ],
         "cinematicMoves": [
           "HURRICANE",
-          "ENERGY_BALL"
+          "ENERGY_BALL",
+          "WEATHER_BALL_ROCK"
         ],
         "animationTime": [
           1.333299994468689,
@@ -61499,7 +61544,8 @@
         ],
         "cinematicMoves": [
           "HYDRO_PUMP",
-          "THUNDER"
+          "THUNDER",
+          "WEATHER_BALL_WATER"
         ],
         "animationTime": [
           1.333299994468689,
@@ -61582,7 +61628,8 @@
         ],
         "cinematicMoves": [
           "BLIZZARD",
-          "ICE_BEAM"
+          "ICE_BEAM",
+          "WEATHER_BALL_ICE"
         ],
         "animationTime": [
           1.333299994468689,
@@ -61665,7 +61712,8 @@
         ],
         "cinematicMoves": [
           "FIRE_BLAST",
-          "SOLAR_BEAM"
+          "SOLAR_BEAM",
+          "WEATHER_BALL_FIRE"
         ],
         "animationTime": [
           1.333299994468689,
@@ -101404,7 +101452,7 @@
         "sequence": [
           "anim attacker atk-move",
           "wait 0.5",
-          "vfx weather_ball_rock",
+          "vfx hidden_power_fast",
           "sfx attacker 311-0_weather_ball",
           "wait 1.5",
           "sys ui-sync",
@@ -101562,5 +101610,5 @@
       }
     }
   ],
-  "timestampMs": "1553711880313"
+  "timestampMs": "1556394154904"
 }
